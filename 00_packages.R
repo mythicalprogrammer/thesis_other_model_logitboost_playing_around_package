@@ -13,5 +13,5 @@ ipak <- function(pkg){
 }
 
 # usage
-packages <- c("caTool")
+packages <- c("caTools")
 ipak(packages)
