@@ -28,4 +28,8 @@ for (i in 1:nrow(xlearn)) {
   j <- j + 1
 }
 
-
+# back up the result since this took awhile to run
+file_path  <- 'result_logitboost.csv'
+write.csv(pred,
+          file = file_path,
+          row.names = FALSE)
