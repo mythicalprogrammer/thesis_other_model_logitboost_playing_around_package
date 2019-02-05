@@ -11,4 +11,6 @@ ylearn <- prostate_data$state
 
 fit1 <- LogitBoost(xlearn, ylearn, nIter = ncol(xlearn))
 
+predict(fit1, xlearn[1,], type = "class")
+
 
